@@ -1,0 +1,55 @@
+
+<!-- <ion-header>
+  <ion-navbar>
+    <ion-title>ScoreBoard Tracking</ion-title>
+  </ion-navbar>
+</ion-header>  -->
+
+<div padding class="container">
+
+<div class="team">
+  
+<div class="pic1"></div>
+<div class="picsmid"><h1>VS</h1></div>
+<div class="pic2"></div>
+</div>
+
+
+
+
+  <div class="box1">
+  <div class="flex-container row">
+     
+    <div class="flex-container column">
+          <div class="flex-item heart"><h2>{{plus15}}</h2>
+             <div *ngIf="love == true"><img src="https://img.icons8.com/color/48/000000/filled-like.png"></div>
+    </div>
+       
+        <div class="flex-item" (click)="plus()"  color="primary"><h1>15</h1></div>
+        <div class="flex-item" (click)="plus2()"  color="primary"><h1>30</h1></div>
+        <div class="flex-item" (click)="plus3()"  color="primary"><h1>40</h1></div>
+    </div>
+    
+
+
+    <div class="flex-container column">
+         <div class="flex-item heart"><h2>{{obj}}</h2>
+             <div *ngIf="love1 == true"><img src="https://img.icons8.com/color/48/000000/filled-like.png"></div>
+    </div>
+      
+      <div class="flex-item"  (click)="plus1()"  color="primary"><h1>15</h1></div>
+      <div class="flex-item"  (click)="pluss()"  color="primary"><h1>30</h1></div>
+      <div class="flex-item"  (click)="plusss()"  color="primary"><h1>40</h1></div>
+   
+    </div>
+
+
+  </div>
+  </div>
+
+<div class="btnbox">
+    
+         <button ion-button (click)="reset()">Reset</button>
+     <div class="icon" (click)="home()"><ion-icon name="home"></ion-icon></div>   
+</div>
+  </div>

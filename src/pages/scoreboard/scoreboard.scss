@@ -1,0 +1,175 @@
+page-scoreboard {
+.container{
+    background-image: url('../../assets/imgs/green-gradient.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+  
+
+
+}
+.team{
+   
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 30vh;
+    align-items: center;
+    align-content: center;
+
+}
+
+   
+    
+    
+
+.pic1{
+   flex-basis: 30%;
+   height: 20vh;
+   background-image: url('../../assets/imgs/team1.jpg');
+   background-position: center;
+   background-size: cover;
+   box-shadow: 0 0 5px 5px rgba(174, 230, 174, 0.979);
+    
+}
+.pic2{
+    box-shadow: 0 0 5px 5px rgba(174, 230, 174, 0.979); 
+   flex-basis: 30%;
+   height: 20vh;
+   background-image: url('../../assets/imgs/team2.jpg');
+   background-position: center;
+    background-size: cover;
+}
+
+.picsmid{
+ 
+flex-basis: 20%;
+height: 10vh;
+text-align: center;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: center; 
+background: rgba(255, 255, 255, .2);
+box-shadow: 0 5px 15px rgba(0, 0, 0, .5);  
+}
+
+.box1{
+
+    display: flex;
+    height: 50vh;
+
+     
+}
+
+.flex-container.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+     width: 100%;
+  
+}
+
+.flex-container.column{
+
+    width:40%; 
+}
+
+.flex-item.heart{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;  
+    background: rgba(255, 255, 255, .2);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .5);   
+}
+
+.flex-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;  
+    background: rgba(255, 255, 255, .2);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+    height: 10vh; 
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+   
+}
+
+h2{   
+ font-weight: bolder;
+ color: white;
+}
+
+
+ .button{
+        height: 50px;
+        width: 200px;
+        color: white;
+        border-radius: 30px;
+        background: linear-gradient(120deg, #278d08,#aded71, #044b1f);
+        position: absolute;
+        bottom: 10px;
+ 
+   
+ }
+
+ .btnbox{
+
+    height: 8vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+ }
+.icon{
+    color: white;
+    width: 40px;
+    height: 30px;
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+    justify-content: center;
+}
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

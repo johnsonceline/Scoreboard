@@ -1,0 +1,111 @@
+page-view {
+    .container{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        justify-content: space-around;
+        background-image: url('../../assets/imgs/green-gradient.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        
+    }
+    .flex-container.column1{
+       
+        height: 100vh;
+        width: 100vw;
+       
+        
+    }span.stretch {
+        display:inline-block;
+        -webkit-transform:scale(3,1); /* Safari and Chrome */
+        -moz-transform:scale(3,1); /* Firefox */
+        -ms-transform:scale(3,1); /* IE 9 */
+        -o-transform:scale(3,1); /* Opera */
+        transform:scale(3,1); /* W3C */
+    }
+    .row{
+       
+    
+        display: flex;
+        justify-content: space-around;
+        height: 10vh;
+        align-content: center;
+        align-items: center;
+        flex-direction: row;
+        margin-top: 2%;
+    
+    
+     
+    }
+    .score{
+      
+        width: 25vw;
+        height: 10vh;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        flex-direction: row;
+        background: rgba(255, 255, 255, .1);
+        box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+    }
+    .score1{
+        border: 1px solid black;
+        width: 50vw;
+        height: 5vh;
+        justify-content: space-around;
+        background: rgba(255, 255, 255, .1);
+        box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+    }
+    
+    .scoreten{
+       
+        height: 80%;
+        width: 88%;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        flex-direction: row; 
+        background: rgba(255, 255, 255, .1);
+        box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+    }
+    .flex{
+       
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        flex-direction: row; 
+        width: 100vw;
+        height: 33vh;
+    }
+    .info{
+        
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        flex-direction: row; 
+        width: 80vw;
+        height: 25vh; 
+        background: rgba(255, 255, 255, .1);
+        box-shadow: 0 5px 15px rgba(0, 0, 0, .5); 
+    }
+    .button{
+        height: 30px;
+        width: 150px;
+        color: white;
+        border-radius: 30px;
+        background: linear-gradient(120deg, #278d08,#aded71, #044b1f);
+        position: absolute;
+        bottom: 35px;
+    
+    
+    }
+    h2{
+        font-weight: bolder;
+        color: white;
+    }
+}

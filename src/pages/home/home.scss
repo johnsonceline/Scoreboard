@@ -1,0 +1,62 @@
+page-home {
+
+     .container{
+         background-image: url('../../assets/imgs/crop.jpg');
+         background-position: center;
+         background-repeat: no-repeat;
+         background-size: cover;
+         height: 100vh;
+         display: flex;
+         flex-direction: column;
+        //  justify-content: center;
+        //  align-items: center;
+        //  align-content: center;
+      
+     }
+.box1{
+    
+    height: 20vh;
+}
+    
+    .logo {
+        display: flex;
+        flex-direction: row;
+         justify-content: center;
+        align-items: center;
+        align-content: center;
+      
+        height: 15vh;
+    }
+    .btn-center {
+      width: 100vw;
+      text-align: center;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+     
+      height: 15vh;
+    
+      
+    }
+
+    .button{
+     
+        height: 50px;
+        width: 200px;
+       
+        color: white;
+       
+        border-radius: 30px;
+        background: linear-gradient(120deg, #278d08,#aded71, #044b1f);
+        position: absolute;
+ 
+     }
+     .space{
+        
+         height: 65vh;
+     }
+
+     
+}
